@@ -16,7 +16,7 @@ export async function POST(request) {
         return new Response(JSON.stringify({ success: true }), {
             status: 200,
             headers: {
-                'Access-Control-Allow-Origin': 'https://portfolio-one-sigma-26.vercel.app/',
+                'Access-Control-Allow-Origin': 'https-github-com-p94-vansh-portfolio/',
                 'Access-Control-Allow-Methods': 'POST, OPTIONS',
                 'Access-Control-Allow-Headers': 'Content-Type',
                 'Content-Type': 'application/json',
@@ -26,7 +26,7 @@ export async function POST(request) {
         return new Response(JSON.stringify({ success: false }), {
             status: 404,
             headers: {
-                'Access-Control-Allow-Origin': 'https://portfolio-one-sigma-26.vercel.app/',
+                'Access-Control-Allow-Origin': 'https-github-com-p94-vansh-portfolio/',
                 'Access-Control-Allow-Methods': 'POST, OPTIONS',
                 'Access-Control-Allow-Headers': 'Content-Type',
                 'Content-Type': 'application/json',
@@ -40,7 +40,7 @@ export async function OPTIONS() {
     return new Response(null, {
         status: 200,
         headers: {
-            'Access-Control-Allow-Origin': 'https://portfolio-one-sigma-26.vercel.app/',
+            'Access-Control-Allow-Origin': 'https-github-com-p94-vansh-portfolio/',
             'Access-Control-Allow-Methods': 'POST, OPTIONS',
             'Access-Control-Allow-Headers': 'Content-Type',
         },
