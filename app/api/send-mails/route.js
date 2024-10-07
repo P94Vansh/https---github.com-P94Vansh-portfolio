@@ -18,7 +18,7 @@ export async function POST(request) {
       to: email, // list of receivers
       subject: 'Thanks for contacting me!', // subject line
       text: "Thanks for contacting me! I'll get back to you ASAP!", // plain text body
-      html: `<h1>Thanks ${name} for contacting me with the message: "${message}"! I'll get back to you ASAP!</h1>
+      html: `<p>Thanks ${name} for contacting me with the message: "${message}"! I'll get back to you ASAP!</p>
       <p>I received your message and I'll get back to you ASAP!</p>`, // html body
     });
 
